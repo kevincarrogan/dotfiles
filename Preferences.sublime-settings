@@ -1,0 +1,11 @@
+{
+	"font_size": 16.0,
+    "font_face": "Source Code Pro Medium",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 2,
+	"line_paddding_top": 2,
+	"translate_tabs_to_spaces": true
+}
