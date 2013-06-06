@@ -1,0 +1,2 @@
+[alias]
+	grin = grep -in --color
