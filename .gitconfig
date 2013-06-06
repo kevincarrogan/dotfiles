@@ -1,2 +1,5 @@
 [alias]
 	grin = grep -in --color
+[user]
+	name = Kevin Morgan
+	email = kevin.d.morgan@gmail.com
