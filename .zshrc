@@ -45,7 +45,16 @@ plugins=(git python virtualenvwrapper sublime bower brew fabric heroku)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/g4bin:/usr/local/sbin
+export PATH=/usr/local/bin:$PATH:/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/g4bin:/usr/local/sbin:/usr/local/share/npm/bin:/opt/local/bin
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Add GHC 7.8.3 to the PATH, via http://ghcformacosx.github.io/
+export GHC_DOT_APP="/Applications/ghc-7.8.3.app"
+if [ -d "$GHC_DOT_APP" ]; then
+    export PATH="${HOME}/.cabal/bin:${GHC_DOT_APP}/Contents/bin:${PATH}"
+fi
+
+export CFLAGS=-Qunused-arguments
+export CPPFLAGS=-Qunused-arguments
