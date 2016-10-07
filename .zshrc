@@ -40,12 +40,12 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git python virtualenvwrapper sublime bower brew fabric heroku)
+plugins=(git python virtualenvwrapper sublime bower brew fabric heroku osx)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:$PATH:/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/g4bin:/usr/local/sbin:/usr/local/share/npm/bin:/opt/local/bin
+export PATH=/usr/local/bin:$PATH:/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/g4bin:/usr/local/sbin:/usr/local/share/npm/bin:/opt/local/bin:/
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
@@ -58,3 +58,5 @@ fi
 
 export CFLAGS=-Qunused-arguments
 export CPPFLAGS=-Qunused-arguments
+
+alias grow="/Users/kevinmorgan/bin/grow"
