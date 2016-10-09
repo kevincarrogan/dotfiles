@@ -58,5 +58,3 @@ fi
 
 export CFLAGS=-Qunused-arguments
 export CPPFLAGS=-Qunused-arguments
-
-alias grow="/Users/kevinmorgan/bin/grow"
