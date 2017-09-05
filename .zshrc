@@ -58,3 +58,5 @@ fi
 
 export CFLAGS=-Qunused-arguments
 export CPPFLAGS=-Qunused-arguments
+
+export PATH="$HOME/.fastlane/bin:$PATH"
