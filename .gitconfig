@@ -9,9 +9,5 @@
 	default = current
 [pull]
 	default = current
-[http]
-	cookiefile = /Users/kevincarrogan/.gitcookies
 [credential]
 	helper = osxkeychain
-[init]
-	templatedir = ~/.git-templates
