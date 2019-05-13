@@ -2,7 +2,7 @@ export ZSH=/Users/kevin/.oh-my-zsh
 
 ZSH_THEME="robbyrussell"
 
-plugins=(git python sublime brew osx npm xcode pyenv)
+plugins=(git python sublime brew osx npm xcode pyenv docker)
 
 source $ZSH/oh-my-zsh.sh
 
