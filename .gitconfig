@@ -2,6 +2,7 @@
 	grin = grep -in --color
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
 	grn = grep -n --color
+	untracked = ls-files . --exclude-standard --others
 [user]
 	name = Kevin Carrogan
 	email = kevin.carrogan@gmail.com
@@ -11,3 +12,8 @@
 	default = current
 [credential]
 	helper = osxkeychain
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
