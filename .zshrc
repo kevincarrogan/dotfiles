@@ -1,8 +1,8 @@
-export ZSH=/Users/kevin/.oh-my-zsh
+export ZSH=/Users/kevincarrogan/.oh-my-zsh
 
 ZSH_THEME="robbyrussell"
 
-plugins=(git python sublime brew osx npm xcode pyenv docker docker-compose wd vscode)
+plugins=(git python brew osx npm xcode pyenv docker docker-compose wd vscode command-not-found)
 
 source $ZSH/oh-my-zsh.sh
 
