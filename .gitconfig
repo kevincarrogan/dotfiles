@@ -5,12 +5,13 @@
 	untracked = ls-files . --exclude-standard --others
 [user]
 	name = Kevin Carrogan
-	email = kevin.carrogan@gmail.com
+	email = kevin@carrogan.com
+	signingkey = 7AB63F6E25940FFD
 [push]
 	default = current
 [pull]
 	default = current
-	rebase = false
+	rebase = true 
 [credential]
 	helper = osxkeychain
 [filter "lfs"]
@@ -20,3 +21,5 @@
 	smudge = git-lfs smudge -- %f
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
